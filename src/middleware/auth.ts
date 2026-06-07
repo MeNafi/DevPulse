@@ -11,6 +11,7 @@ interface ICustomUser {
     role: UserRole
 }
 
+
 export const authGuard = (...allowedRoles: string[]) => {
    
     return(req: Request, res: Response, next: NextFunction) => {
@@ -31,7 +32,7 @@ export const authGuard = (...allowedRoles: string[]) => {
             token = authHeader.slice(7).trim()
         }
 
-        
+
         if (!token) {
             return sendResponse (res, StatusCodes.UNAUTHORIZED, {
                 success: false,
