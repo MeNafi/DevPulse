@@ -77,7 +77,7 @@ This API follows modern authentication and security practices.
 
 | Method | Endpoint                  | Description                    |
 | ------ | ------------------------- | ------------------------------ |
-| POST   | `/api/auth/register`      | Register a new user            |
+| POST   | `/api/auth/signup`      | Register a new user            |
 | POST   | `/api/auth/login`         | Login and receive access token |
 | GET    | `/api/issues`             | Retrieve all issues            |
 | GET    | `/api/issues/:id`         | Retrieve a single issue        |
@@ -124,14 +124,23 @@ DevPulse/
 │   │   └── logger.ts
 │   │
 │   ├── types/
+│   │   ├── express.d.ts
+│   │   ├── index.ts
+│   │   └── interface.error.ts
 │   │
 │   ├── utils/
+│   │   ├── jwt.ts
+│   │   └── sendResponse.ts
 │   │
-│   └── app.ts
+│   ├── app.ts
+│   └── server.ts
 │
-├── .env
+├── .gitignore
 ├── package.json
+├── package-lock.json
 ├── tsconfig.json
+├── tsup.config.ts
+├── vercel.json
 └── README.md
 ```
 
