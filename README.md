@@ -1,4 +1,4 @@
-# 🚂 DevPulse API
+## 🚼 DevPulse API
 
 #### 𝐃𝐞𝐯𝐏𝐮𝐥𝐬𝐞 𝐀𝐏𝐈 – A modern bug tracking and issue management backend API built with Express.js, TypeScript, and PostgreSQL, hosted on Neon DB. This project follows clean architecture principles and modern backend development practices, featuring secure authentication, role-based access control, scalable project structure, RESTful APIs, database integration, and production-ready code organization.
 
