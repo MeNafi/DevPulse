@@ -11,7 +11,6 @@ interface ICustomUser {
     role: UserRole
 }
 
-
 export const authGuard = (...allowedRoles: string[]) => {
    
     return(req: Request, res: Response, next: NextFunction) => {
