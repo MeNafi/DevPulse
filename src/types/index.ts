@@ -2,7 +2,6 @@ export type UserRole = "contributor" | "maintainer";
 export type IssueType = "bug" | "features_request";
 export type IssueStatus = "open" | "in_progress" | "resolved";
 
-
 export interface IUser {
     id:number,
     name: string,
@@ -12,7 +11,6 @@ export interface IUser {
     created_at: Date,
     updated_at: Date
 }
-
 
 export interface IIssue {
     id:number,

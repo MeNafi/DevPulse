@@ -50,9 +50,6 @@ export const createIssueController = async (req: Request, res: Response, next: N
             status: status as IssueStatus
         })
           
-
-       
-
         return sendResponse(res, StatusCodes.OK, {
             success: true,
             message: "Issues retrieved successfully",
@@ -127,12 +124,8 @@ export const getSingleIssueController = async (req: Request, res: Response, next
             };
         }
 
-       
         const safeReq = req as CustomDeleteRequest;
-
         const { id } = safeReq.params;
-        
-        
         const issueId = Number(id ? id.trim() : "");
 
         if (isNaN(issueId)) {

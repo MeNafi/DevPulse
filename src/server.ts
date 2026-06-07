@@ -2,7 +2,6 @@ import app from "./app"
 import {config} from "./config"
 import { initDB } from "./db"
 
-
 const main = async (): Promise<void> => {
     
     try {
