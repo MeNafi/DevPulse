@@ -89,6 +89,34 @@ This API follows modern authentication and security practices.
 | GET    | `/api/issues?type=bug`    | Filter issues by issue type    |
 
 ---
+```
+```
+## 📦 Production Dependencies
+
+| Package           | Installation                    |
+| ----------------- | ------------------------------- |
+| Express.js        | `npm install express`           |
+| Dotenv            | `npm install dotenv`            |
+| PostgreSQL        | `npm install pg`                |
+| JWT               | `npm install jsonwebtoken`      |
+| Bcrypt            | `npm install bcrypt`            |
+| HTTP Status Codes | `npm install http-status-codes` |
+
+## 🛠️ Development Dependencies
+
+| Package          | Installation                         |
+| ---------------- | ------------------------------------ |
+| TypeScript       | `npm install -D typescript`          |
+| ts-node-dev      | `npm install -D ts-node-dev`         |
+| tsup             | `npm install -D tsup`                |
+| Express Types    | `npm install -D @types/express`      |
+| PostgreSQL Types | `npm install -D @types/pg`           |
+| JWT Types        | `npm install -D @types/jsonwebtoken` |
+| Bcrypt Types     | `npm install -D @types/bcrypt`       |
+| Node.js Types    | `npm install -D @types/node`         |
+
+```
+```
 
 ## 📁 Project Structure
 
