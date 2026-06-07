@@ -24,6 +24,7 @@ export const authGuard = (...allowedRoles: string[]) => {
             })
         }
 
+        
         // Accept both raw token and "Bearer <token>" format
         let token = authHeader
 
