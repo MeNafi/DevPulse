@@ -52,7 +52,7 @@ This project demonstrates modern backend development practices and serves as a s
 | Benefit                  | Description                                 |
 | ------------------------ | ------------------------------------------- |
 | 🧱 Clean Architecture    | Easy to maintain, extend, and scale         |
-| 🔒 RBAC Authorization    | Protects sensitive resources and operations |
+| 🔒 RBAC Authorization sensitive resources and operations |
 | ⚡ Strict Type Safety     | Reduces bugs through TypeScript             |
 | 📦 Modular Structure     | Better separation of concerns               |
 | 🗄️ Database Integration | Efficient PostgreSQL data management        |
