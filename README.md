@@ -197,7 +197,7 @@ npm run dev
 Create a `.env` file and configure the following variables:
 
 ```env
-PORT=8000
+PORT=5000
 DATABASE_URL=your_neon_postgresql_database_url
 JWT_SECRET=your_jwt_secret_key
 ```
