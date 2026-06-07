@@ -24,8 +24,13 @@ export const authGuard = (...allowedRoles: string[]) => {
             })
         }
 
-       // Extract the token from "Bearer <token>" format
-        const token = authHeader.split(" ")[1];
+        // Accept both raw token and "Bearer <token>" format
+        let token = authHeader
+
+        if (authHeader.toLowerCase().startsWith("bearer ")) {
+            token = authHeader.slice(7).trim()
+        }
+
         
         if (!token) {
             return sendResponse (res, StatusCodes.UNAUTHORIZED, {
