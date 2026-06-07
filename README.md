@@ -88,14 +88,38 @@ This API follows modern authentication and security practices.
 DevPulse/
 │
 ├── src/
-│   ├── app/
+│   │
+│   ├── api/
+│   │   │
+│   │   ├── controllers/
+│   │   │   ├── auth.controller.ts
+│   │   │   └── issue.controller.ts
+│   │   │
+│   │   ├── routes/
+│   │   │   ├── auth.routes.ts
+│   │   │   └── issue.routes.ts
+│   │   │
+│   │   └── services/
+│   │       ├── auth.service.ts
+│   │       └── issue.service.ts
+│   │
 │   ├── config/
-│   ├── controllers/
-│   ├── services/
-│   ├── routes/
-│   ├── middlewares/
+│   │   └── index.ts
+│   │
+│   ├── db/
+│   │   ├── index.ts
+│   │   └── schema.ts
+│   │
+│   ├── middleware/
+│   │   ├── auth.ts
+│   │   ├── globalErrorHandler.ts
+│   │   └── logger.ts
+│   │
+│   ├── types/
+│   │
 │   ├── utils/
-│   └── types/
+│   │
+│   └── app.ts
 │
 ├── .env
 ├── package.json
