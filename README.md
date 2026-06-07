@@ -4,7 +4,15 @@
 
 ---
 
-## ⚙️ Tech Stack
+## 🌐 Deployment
+
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+**Live Demo:** https://dev-pulse-puce-kappa.vercel.app/
+
+---
+
+## 🧩 Tech Stack
 
 This backend application is built using modern technologies to ensure scalability, maintainability, and performance.
 
