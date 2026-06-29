@@ -4,7 +4,6 @@ import { sendResponse } from "../utils/sendResponse"
 import { type UserRole } from "../types/index"
 import { StatusCodes } from "http-status-codes"   // its a library
 
-
 interface ICustomUser {
     id: number,
     name: string,
