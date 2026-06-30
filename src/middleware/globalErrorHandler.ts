@@ -3,7 +3,6 @@ import { sendResponse } from "../utils/sendResponse";
 import { StatusCodes } from "http-status-codes";
 import { type IAppError } from "../types/interface.error"
 
-
 // Intercept unhandled controller exceptions to safely format the global error envelope
 export const globalErrorHandler = (err: unknown, req: Request, res: Response, next: NextFunction) => {
     const errorInstance = err as IAppError
