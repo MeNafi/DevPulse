@@ -1,6 +1,5 @@
 import type { NextFunction, Request, Response } from "express";
 
-
 // Middleware to log incoming HTTP requests with timestamp, method, and URL
 export const logger = (req: Request, res: Response, next: NextFunction) => {
      
