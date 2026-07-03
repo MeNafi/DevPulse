@@ -9,7 +9,6 @@ export const globalErrorHandler = (err: unknown, req: Request, res: Response, ne
     const statusCode = errorInstance.statusCode || StatusCodes.INTERNAL_SERVER_ERROR
     const errorMessage = errorInstance.message || "Something went wrong the platform routing engine";
 
-
 // Transmit the structured error package safely using our centralized generic utility
 sendResponse(res, statusCode, {
     success: false,
