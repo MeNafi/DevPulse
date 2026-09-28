@@ -21,3 +21,4 @@ export const verifyToken = (token: string): JwtPayload | null => {
       return null
     }
 }
+
